@@ -1,0 +1,21 @@
+.name{
+    color: #f7bd0e;
+    margin-top: 15px;
+    text-align: center;
+   
+}
+
+.pic{
+    border-radius: 50%;
+    width: 80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.info p{
+    color: #9589a0;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+}
