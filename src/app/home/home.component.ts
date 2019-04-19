@@ -21,6 +21,17 @@ export class HomeComponent implements OnInit {
       $(".lln7").animate({left:'60%'},2000);
       $(".lln8").animate({left:'70%'},2000);
       $(".round").animate({left:'79.8%'},2000);
+
+
+      $(".rln1").animate({right:'70%'},2000);
+      $(".rln2").animate({right:'60%'},2000);
+      $(".rln3").animate({right:'50%'},2000);
+      $(".rln4").animate({right:'40%'},2000);
+      $(".rln5").animate({right:'30%'},2000);
+      $(".rln6").animate({right:'20%'},2000);
+      $(".rln7").animate({right:'10%'},2000);
+      $(".rln8").animate({right:'0%'},2000);
+      $(".round2").animate({right:'79.8%'},2000);
     });
   }
 

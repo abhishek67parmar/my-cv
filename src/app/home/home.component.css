@@ -37,6 +37,27 @@
   }
 
 
+  .rln1,.rln2, .rln3, .rln4, .rln5, .rln6, .rln7, .rln8{
+    position: absolute;
+    top: 50%;
+    height:5px;
+    width: 10%;
+    background-color: #f1ef4d;
+    right: -100%;
+    
+}
+
+.round2 {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 49.2%;
+    border-radius: 50%;
+    background-color: #f1ef4d;
+    right: -100%;
+  }
+
+
 .info p {
     color: #9589a0;
     font-size: 20px;
