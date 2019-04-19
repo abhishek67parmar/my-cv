@@ -1,19 +1,43 @@
-.name{
+.home{
+    padding-bottom: 40;
+}
+.name {
     color: #f7bd0e;
     margin-top: 15px;
     text-align: center;
-   
 }
 
-.pic{
+.pic {
     border-radius: 50%;
     width: 80%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    z-index: 1;
 }
 
-.info p{
+.lln1,.lln2, .lln3, .lln4, .lln5, .lln6, .lln7, .lln8{
+    position: absolute;
+    top: 30%;
+    height:5px;
+    width: 10%;
+    background-color: #f1ef4d;
+    left: -100%;
+    
+}
+
+.round {
+    position: absolute;
+    height: 15px;
+    width: 15px;
+    top: 29.2%;
+    border-radius: 50%;
+    background-color: #f1ef4d;
+    left: -100%;
+  }
+
+
+.info p {
     color: #9589a0;
     font-size: 20px;
     font-weight: 700;
