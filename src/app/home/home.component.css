@@ -16,11 +16,11 @@
     z-index: 1;
 }
 
-.lln1,.lln2, .lln3, .lln4, .lln5, .lln6, .lln7, .lln8{
+.lln1{
     position: absolute;
     top: 30%;
     height:5px;
-    width: 10%;
+    width: 80%;
     background-color: #f1ef4d;
     left: -100%;
     
@@ -33,15 +33,15 @@
     top: 29.2%;
     border-radius: 50%;
     background-color: #f1ef4d;
-    left: -100%;
+    left: -20%;
   }
 
 
-  .rln1,.rln2, .rln3, .rln4, .rln5, .rln6, .rln7, .rln8{
+  .rln1{
     position: absolute;
     top: 50%;
     height:5px;
-    width: 10%;
+    width: 80%;
     background-color: #f1ef4d;
     right: -100%;
     
@@ -54,7 +54,7 @@
     top: 49.2%;
     border-radius: 50%;
     background-color: #f1ef4d;
-    right: -100%;
+    right: -20%;
   }
 
 

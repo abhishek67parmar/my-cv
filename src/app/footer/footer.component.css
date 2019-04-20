@@ -6,7 +6,7 @@
     padding-bottom: 3px;
 } */
 .footer{
-	bottom:0px;
+	bottom:-50px;
 	position:fixed;
 	width:100%;
 	padding:10px;
