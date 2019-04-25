@@ -12,13 +12,13 @@ export class HomeComponent implements OnInit {
 
   ngOnInit() {
     $(window).on("load", function () {
-      var pos = $('.pic').offset();
+      let pos = $('.pic').offset();
       // console.log(pos.top);
-      var h = $('img.pic').innerHeight();
+      let h = $('img.pic').innerHeight();
       // console.log(h)
 
-      var lln_top = pos.top + (0.15 * h);
-      var rln_top = pos.top + (0.82 * h);
+      let lln_top = pos.top + (0.15 * h);
+      let rln_top = pos.top + (0.82 * h);
 
       // console.log(rln_top);
 
@@ -36,11 +36,6 @@ export class HomeComponent implements OnInit {
       $('.rln1').animate({ right: '0%' }, 2000);
       $('.round2').animate({ right: '79.8%' }, 2000);
     });
-  }
-  test() {
-
-
-
   }
 
 }

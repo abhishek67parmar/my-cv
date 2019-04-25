@@ -6,17 +6,20 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { HomeComponent } from './home/home.component';
 import { FooterComponent } from './footer/footer.component';
+import { EducationComponent } from './education/education.component';
 
 
 
-export const routes:Routes=[ {path: '', component:HomeComponent}];
+export const routes: Routes = [ {path: '', component: HomeComponent},
+                              {path: 'education', component: EducationComponent}];
 
 @NgModule({
    declarations: [
       AppComponent,
       HeaderComponent,
       HomeComponent,
-      FooterComponent
+      FooterComponent,
+      EducationComponent
    ],
    imports: [
       BrowserModule,
