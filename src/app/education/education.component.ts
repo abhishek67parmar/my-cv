@@ -28,11 +28,8 @@ export class EducationComponent implements OnInit {
     });
     
     $(window).on("load", function () {
-      $('.card1').css( {'margin-left' :'-300%'} );
       $('.card1').animate({ 'margin-left': '0%' },2000);
-      $('.card2').css( {'margin-top' :'300%'} );
       $('.card2').animate({ 'margin-top': '20px' },2000);
-      $('.card3').css( {'margin-left' :'300%'} );
       $('.card3').animate({ 'margin-left': '0%' },2000);
     });
 
