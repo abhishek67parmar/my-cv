@@ -29,11 +29,11 @@ export class HomeComponent implements OnInit {
       $('.round2').css({ 'top': rln_top-4 });
 
 
-      $('.lln1').animate({ left: '0%' }, 2000);
+      $('.lln1').animate({ width: '80%' }, 2000);
       $('.round').animate({ left: '79.8%' }, 2000);
 
 
-      $('.rln1').animate({ right: '0%' }, 2000);
+      $('.rln1').animate({ width: '80%' }, 2000);
       $('.round2').animate({ right: '79.8%' }, 2000);
     });
   }

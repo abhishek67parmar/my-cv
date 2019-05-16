@@ -5,6 +5,8 @@
     color: #f7bd0e;
     margin-top: 15px;
     text-align: center;
+    font-weight: 700;
+    font-size: 40px;
 }
 
 .pic {
@@ -20,9 +22,9 @@
     position: absolute;
     top: 30%;
     height:5px;
-    width: 80%;
+    width: 0%;
     background-color: #f1ef4d;
-    left: -100%;
+    left: 0%;
     
 }
 
@@ -33,7 +35,7 @@
     top: 29.2%;
     border-radius: 50%;
     background-color: #f1ef4d;
-    left: -20%;
+    left: 0%;
   }
 
 
@@ -41,9 +43,9 @@
     position: absolute;
     top: 50%;
     height:5px;
-    width: 80%;
+    width: 0%;
     background-color: #f1ef4d;
-    right: -100%;
+    right: 0%; 
     
 }
 
@@ -54,7 +56,7 @@
     top: 49.2%;
     border-radius: 50%;
     background-color: #f1ef4d;
-    right: -20%;
+    right: 0%;
   }
 
 
