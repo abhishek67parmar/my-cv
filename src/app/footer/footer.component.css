@@ -10,9 +10,19 @@
 	position:fixed;
 	width:100%;
 	padding:10px;
-	text-align:center;
 }
 
+@media (min-width: 768px) {
+    .footer {
+        padding-left: 28%;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer {
+        text-align:center;
+    }
+}
 i{
     margin-left: 12px;
     margin-right: 12px;
